@@ -1,0 +1,329 @@
+#myHeader{
+  transition: top 0.3s;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #555;
+  color: white;
+  padding: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+.main1 {
+  padding: 2rem;
+  background-color: aliceblue;
+}
+
+h2 {
+  text-align: center;
+  font-size: small;
+}
+h4 {
+  text-align: center;
+  font-size: 1.6cm;
+}
+p {
+  text-align: center;
+}
+ul {
+  padding-left: 2rem;
+}
+
+.layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.layout > div {
+  max-width: calc(50% - 20px);
+  margin-bottom: 20px;
+}
+.tituloDos {
+  color: #fff;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 70px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.H3 {
+  color: cornflowerblue;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+.main2 {
+  text-align: center;
+  background: #30517d;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  width: 18rem;
+}
+.carousel-inner {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.carousel-item img {
+  border-radius: 5px;
+}
+.estadisticas {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+.image-containerI {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.text {
+  font-size: medium;
+}
+.video {
+  background-color: #cceeff;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.mundo-borja {
+  width: 300px;
+  animation: spin 2s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.footer {
+  background-color: #ddd;
+}
+.section-portada{
+  font-family: 'Adobe Hebrew';
+}
+.section-portada h2{
+  text-align: left;
+}
+.page-section.section-portada {
+  display: block;
+  padding: 60px 0px;
+  background: #eaedf2;
+  color: #30517d;
+}
+.page-section.section-portada h1 {
+  position: relative;
+  text-transform: none;
+  font-size: 2em;
+  padding-left: 20px;
+  border-left: solid 2px #a83a3f;
+}
+.pagina-nosotros.pagina-nosotros-inicial .beneficios-inicial {
+  background-color: rgba(253, 251, 231, 0.527);
+  padding-top: 20px;
+  background-image: url(../imagenes/inicial-fondo.jpg) ;
+}
+.container1 {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.beneficio {
+  text-align: left;
+  padding: 30px;
+  font-size: 14px; 
+  font-family: Laski Sans; 
+  font-weight: normal;
+  font-style: normal;
+  color: #30517D;
+}
+.beneficio .image-container {
+  float: left;
+  margin-right: 2rem;
+}
+.beneficio p{
+  text-align: left;
+  font-family: Laski Sans; 
+  font-weight: normal;
+  font-style: normal;
+  color: #30517D;
+}
+p{
+  margin-top: 0;
+    margin-bottom: 1rem;
+}
+.icon {
+  width: 82px;
+  height: 82px;
+  vertical-align: middle;
+  display: inline-block;
+}
+figure {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+}
+.seccion-introduccion{
+  background: #30517D;
+  color: #fff;
+}
+.video-container{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+
+}
+.modal-header{
+  color: #555;
+}
+.mb-3{
+  color: #555;
+}
+.seccion-introduccion h2{
+  font-family: 'Adobe Hebrew';
+  font-weight: normal;
+  font-style: normal;
+}
+.seccion-introduccion h2 strong{
+  color: #F7E337;
+}
+.btn-customizar{
+  background-color: #dd0000; 
+  color: white;
+  padding: 05px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.mainInicial{
+  background: #EAEDF2;
+}
+.mainInicial .tituloInicial{
+  font-size: 1.6em;
+  color: #30517D;
+  font-family: 'Adobe Hebrew';
+
+}
+.mainInicial .tituloInicial strong{
+  color: #A83A3F;
+  font-family: 'Adobe Hebrew';
+
+}
+.card-body h3{
+  font-size: 1em;
+  color: #30517D;
+  font-family: 'Adobe Hebrew';
+
+}
+.card-body p{
+  margin-bottom: 4%;
+  font-family: 'Adobe Hebrew';
+  color: #30517D;
+  text-align: left;
+}
+.pagina-nosotros.pagina-nosotros-basica .beneficios-basica {
+  background-color: rgba(253, 251, 231, 0.527);
+  padding-top: 20px;
+  background-image:url(../imagenes/basica-fondo.jpg);
+}
+.mainBasica{
+  background: #EAEDF2;
+}
+.mainBasica .tituloBasica{
+  font-size: 1.6em;
+  color: #30517D;
+  font-family: 'Adobe Hebrew';
+
+}
+.mainBasica .tituloBasica strong{
+  color: #A83A3F;
+  font-family: 'Adobe Hebrew';
+}
+.pagina-nosotros.pagina-nosotros-bachillerato .beneficios-bachillerato {
+  background-color: rgba(253, 251, 231, 0.527);
+  padding-top: 20px;
+  background-image:url(../imagenes/bachillerato-logo.jpg);
+}
+.mainBachillerato{
+  background: #EAEDF2;
+}
+.mainBachillerato .tituloBachillerato{
+  font-size: 1.6em;
+  color: #30517D;
+  font-family: 'Adobe Hebrew';
+}
+.mainBachillerato .tituloBachillerato strong{
+  color: #A83A3F;
+  font-family: 'Adobe Hebrew';
+}
+.carrusel-bachillerato h2{
+  font-size: 1.6em;
+  color: #30517D;
+  font-family: 'Adobe Hebrew';
+}
+.image-container{
+  max-width: 135px; 
+  max-height: 900px; 
+  display: block;
+  margin: 0 auto;
+}
+.carrusel-bachillerato{
+  background-color:#30517D ;
+}
+.carrusel-bachillerato h2{
+  color: #ffffff;
+}
+.card .card-bodyB {
+  padding: 20px; 
+}
+.card-bodyB h3{
+  color: #A83A3F;
+  font-size: 1em;
+  font-family: 'Adobe Hebrew';
+}
+.card-bodyB p{
+  color: #30517D;
+  font-size: 1em;
+  font-family: 'Adobe Hebrew';
+  text-align: center;
+}
+.boton {
+  background-color: #30517D; 
+  text-align: center; 
+  padding: 05px 0;
+}
+
+.boton button {
+  background-color: #ff0000; 
+  border: none; 
+  color: #fff; 
+  font-size: 16px;
+}
