@@ -1,4 +1,3 @@
-
 document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("formulario").addEventListener("submit", function(event) {
         event.preventDefault();
@@ -15,12 +14,6 @@ function validarFormulario() {
 
     if (telefono.length !== 10 || isNaN(telefono)) {
         alert("El número de teléfono debe tener 10 dígitos numéricos.");
-        return;
-    }
-
-    let emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailRegex.test(email)) {
-        alert("Por favor ingrese un email válido.");
         return;
     }
 
