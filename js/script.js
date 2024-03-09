@@ -12,6 +12,11 @@ function validarFormulario() {
     let email = document.getElementById("email").value;
     let grado = document.getElementById("grado").value;
 
+    if (nombre === '' || apellido === '' || telefono === '' || email === '') {
+        alert('Por favor, complete todos los campos.');
+        return;
+    }
+
     if (telefono.length !== 10 || isNaN(telefono)) {
         alert("El número de teléfono debe tener 10 dígitos numéricos.");
         return;
@@ -22,6 +27,10 @@ function validarFormulario() {
     console.log("Teléfono:", telefono);
     console.log("Email:", email);
     console.log("Nivel Educativo de Interés:", grado);
+
+    alert('Datos registrados.');
+
+    formulario.reset();
 }
 
 let btnSolicitarInformacion = document.getElementById("btn-solicitar-informacion");
