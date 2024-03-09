@@ -213,12 +213,13 @@
                 <strong>biblioteca</strong>, sala de <strong>Kinsi</strong>, sala de <strong>música</strong>,
                 <strong>huerto</strong> escolar y más.
             </p>
-            <div class="row">    
-                <div class="col">        
+            <div class="row">
+                <div class="col">
                     <p class="text-center mt-5">
-                        <button class="btn-ventana-informacion btn-customizar" data-bs-toggle="modal" data-bs-target="#modal-informacion">Solicita informes</button>
-                    </p>        
-                </div>    
+                        <button class="btn-ventana-informacion btn-customizar" data-bs-toggle="modal"
+                            data-bs-target="#modal-informacion">Solicita informes</button>
+                    </p>
+                </div>
             </div>
         </section><br>
         <section class="estadisticas">
@@ -270,44 +271,44 @@
 
     </section>
     <div class="modal fade" id="modal-informacion" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Información del cliente</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Información del cliente</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="formulario" >
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombres del representante:</label>
+                            <input type="text" class="form-control" id="nombre" name="nombre">
                         </div>
-                        <div class="modal-body">
-                            <form>
-                                <div class="mb-3">
-                                    <label for="nombre" class="form-label">Nombres del representante:</label>
-                                    <input type="text" class="form-control" id="nombre" name="nombre">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="Apellidos" class="form-label">Apellidos del representante:</label>
-                                    <input type="text" class="form-control" id="apellido" name="apellido">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="Telefono" class="form-label">Teléfono:</label>
-                                    <input type="tel" class="form-control" id="telefono" name="telefono">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="email" class="form-label">Email:</label>
-                                    <input type="email" class="form-control" id="email" name="email">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="grado" class="form-label">Nivel Educativo de Interés:</label>
-                                    <select class="form-select" id="grado" name="grado">
-                                        <option value="primero">Inicial</option>
-                                        <option value="segundo">Básica</option>
-                                        <option value="tercero">Bachillerato</option>
-                                    </select>
-                                </div>
-                                <button type="submit" class="btn btn-primary">Solicitar Informacion</button>
-                            </form>
+                        <div class="mb-3">
+                            <label for="Apellidos" class="form-label">Apellidos del representante:</label>
+                            <input type="text" class="form-control" id="apellido" name="apellido">
                         </div>
-                    </div>
+                        <div class="mb-3">
+                            <label for="Telefono" class="form-label">Teléfono:</label>
+                            <input type="tel" class="form-control" id="telefono" name="telefono">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email:</label>
+                            <input type="email" class="form-control" id="email" name="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="grado" class="form-label">Nivel Educativo de Interés:</label>
+                            <select class="form-select" id="grado" name="grado">
+                                <option value="primero">Inicial</option>
+                                <option value="segundo">Básica</option>
+                                <option value="tercero">Bachillerato</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Solicitar Informacion</button>
+                    </form>
                 </div>
             </div>
+        </div>
+    </div>
 </body>
 
 </html>
