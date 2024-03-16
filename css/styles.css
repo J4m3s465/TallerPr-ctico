@@ -145,9 +145,10 @@ ul {
   border-left: solid 2px #a83a3f;
 }
 .pagina-nosotros.pagina-nosotros-inicial .beneficios-inicial {
-  background-color: rgba(253, 251, 231, 0.527);
   padding-top: 20px;
-  background-image: url(../imagenes/inicial-fondo.jpg) ;
+  background-image: linear-gradient(to right, rgb(239, 253, 255) 0%, rgba(253, 251, 231, 0) 100%), url(../imagenes/inicial-fondo.jpg);
+  background-size: cover;
+  background-position: center;
 }
 .container1 {
   width: 100%;
@@ -254,9 +255,10 @@ figure {
   text-align: left;
 }
 .pagina-nosotros.pagina-nosotros-basica .beneficios-basica {
-  background-color: rgba(253, 251, 231, 0.527);
   padding-top: 20px;
-  background-image:url(../imagenes/basica-fondo.jpg);
+  background-image: linear-gradient(to right, rgb(239, 253, 255) 0%, rgba(253, 251, 231, 0) 100%), url(../imagenes/basica-fondo.jpg);
+  background-size: cover;
+  background-position: center;
 }
 .mainBasica{
   background: #EAEDF2;
@@ -272,9 +274,10 @@ figure {
   font-family: 'Adobe Hebrew';
 }
 .pagina-nosotros.pagina-nosotros-bachillerato .beneficios-bachillerato {
-  background-color: rgba(253, 251, 231, 0.527);
   padding-top: 20px;
-  background-image:url(../imagenes/bachillerato-logo.jpg);
+  background-image: linear-gradient(to right, rgb(239, 253, 255) 0%, rgba(253, 251, 231, 0) 100%), url(../imagenes/bachillerato-logo.jpg);
+  background-size: cover;
+  background-position: center;
 }
 .mainBachillerato{
   background: #EAEDF2;
