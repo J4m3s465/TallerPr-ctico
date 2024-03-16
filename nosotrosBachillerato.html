@@ -16,7 +16,7 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="index.html">
                     <img src="imagenes/Logo.png" alt="Logo" width="75" height="75"
                         class="d-inline-block align-text-top">
 
@@ -204,7 +204,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <form id="formulario" action="guardar_datos.php" method="POST">
                         <div class="mb-3">
                             <label for="nombre" class="form-label">Nombres del representante:</label>
                             <input type="text" class="form-control" id="nombre" name="nombre">
@@ -229,12 +229,12 @@
                                 <option value="tercero">Bachillerato</option>
                             </select>
                         </div>
-                        <button type="submit" class="btn btn-primary">Solicitar Informacion</button>
+                        <button type="submit" class="btn btn-primary"  id="btn-solicitar-informacion">Solicitar Informacion</button>
                     </form>
                 </div>
             </div>
         </div>
-    </div>
+    </div> 
     <script src="js/script.js"></script>
 </body>
 </html>
